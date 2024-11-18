@@ -18,23 +18,23 @@ public class DaoImpl implements IDao{
 
     @Override
     public Article findById(Long id) {
-        return null;
+
+        return database.stream().filter(a-> a.getId().equals(id)).findFirst().orElse(null);
     }
 
     @Override
     public List<Article> findAll() {
-        return null;
+
+        return database;
     }
 
     @Override
     public void save(Article article) {
-
+        database.add(article);
     }
-//HELLP
-    //HELLP
-//HELLP //HELLP
+
     @Override
     public void deleteById(Long id) {
-
+        database.remove(database.stream().filter(a-> id.equals(a.getId())).findFirst().orElse(null));
     }
 }
