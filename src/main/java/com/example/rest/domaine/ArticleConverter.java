@@ -1,5 +1,7 @@
 package com.example.rest.domaine;
 
+import com.example.rest.service.model.Article;
+
 import java.util.ArrayList;
 import java.util.List;
 

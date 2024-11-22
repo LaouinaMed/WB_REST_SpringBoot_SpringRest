@@ -1,4 +1,4 @@
-package com.example.rest.domaine;
+package com.example.rest.service.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,6 @@
 package com.example.rest.dao;
 
-import com.example.rest.domaine.Article;
+import com.example.rest.service.model.Article;
 
 import java.util.ArrayList;
 import java.util.Arrays;
