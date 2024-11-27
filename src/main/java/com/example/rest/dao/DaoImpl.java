@@ -1,11 +1,13 @@
 package com.example.rest.dao;
 
 import com.example.rest.service.model.Article;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@Repository
 public class DaoImpl implements IDao{
 
     private static final List<Article> database = new ArrayList<>

@@ -16,6 +16,7 @@ public class ServiceImpl implements IService{
 
     private IDao dao;
 
+    @Autowired
     public ServiceImpl(IDao dao){
         this.dao=dao;
     }
